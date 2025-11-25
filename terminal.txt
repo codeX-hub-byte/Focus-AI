@@ -1,0 +1,9 @@
+# 1. Install Node.js if you haven't already.
+# 2. Install http-server globally:
+npm install -g http-server
+
+# 3. Navigate to your project directory (where index.html is located)
+cd /path/to/your/project
+
+# 4. Start the server (The -c-1 flag disables caching)
+http-server -c-1
